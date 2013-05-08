@@ -1,6 +1,6 @@
 {
   "name": "continuable-cache",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cache a continuable",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
@@ -16,8 +16,7 @@
     "url": "https://github.com/Colingo/continuable-cache/issues",
     "email": "raynos2@gmail.com"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "~0.2.2"
   },
