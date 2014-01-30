@@ -40,9 +40,9 @@ cached(function (err, file) {
 
 ## MIT Licenced
 
-  [1]: https://secure.travis-ci.org/Colingo/continuable-cache.png
-  [2]: http://travis-ci.org/Colingo/continuable-cache
-  [3]: https://david-dm.org/Colingo/continuable-cache/status.png
-  [4]: https://david-dm.org/Colingo/continuable-cache
-  [5]: https://ci.testling.com/Colingo/continuable-cache.png
-  [6]: https://ci.testling.com/Colingo/continuable-cache
+  [1]: https://secure.travis-ci.org/Raynos/continuable-cache.png
+  [2]: http://travis-ci.org/Raynos/continuable-cache
+  [3]: https://david-dm.org/Raynos/continuable-cache/status.png
+  [4]: https://david-dm.org/Raynos/continuable-cache
+  [5]: https://ci.testling.com/Raynos/continuable-cache.png
+  [6]: https://ci.testling.com/Raynos/continuable-cache
