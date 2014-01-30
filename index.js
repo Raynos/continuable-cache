@@ -6,6 +6,7 @@ module.exports = cache
 function cache(source) {
     var _err = Nil
     var _value = Nil
+    var _result = null
     var listeners = null
 
     return function continuable(callback) {
@@ -15,12 +16,14 @@ function cache(source) {
             listeners.push(callback)
         } else {
             listeners = [callback]
-            source(function (err, value) {
+            _result = source(function (err, value) {
                 _err = err
                 _value = value
 
                 listeners.forEach(function (l) { l(err, value) })
             })
         }
+
+        return _result
     }
 }
